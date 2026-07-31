@@ -732,9 +732,20 @@ function Footer() {
       </div>
 
       <div className="border-t border-line">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-5 sm:flex-row">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-5 sm:flex-row">
           <p className="label-mono text-faint">© {new Date().getFullYear()} Muestra · Sabaneta, Medellín</p>
-          <p className="label-mono text-faint">Hecho directo · sin comisiones</p>
+          <a
+            href="https://mindgod.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 label-mono text-faint transition-colors hover:text-cream"
+          >
+            <Mark className="h-3 w-3" /> Diseñado por
+            <span className="font-display font-semibold tracking-tight text-cream/80 transition-colors group-hover:text-ember">
+              Mindgod
+            </span>
+            <Arrow className="h-3 w-3 -rotate-45 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </a>
         </div>
       </div>
     </footer>
