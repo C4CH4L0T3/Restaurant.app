@@ -1,0 +1,14 @@
+/node_modules
+/.next
+/out
+/build
+*.log
+.env*
+.DS_Store
+next-env.d.ts
+.vercel
+*.tsbuildinfo
+
+# local tooling artifacts
+.impeccable
+.claude
